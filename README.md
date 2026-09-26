@@ -13,6 +13,10 @@ the chain over JSON-RPC: AMM and gas math, contract state, EVM internals.
 
 | Project | Language | Description |
 |---|---|---|
+| [btc-fee-stats](https://github.com/kenny-ish/btc-fee-stats) | Python | Bitcoin fee dashboard in the terminal: recommended fees, mempool backlog and recent blocks from mempool.space |
+| [eth-timelock-vault](https://github.com/kenny-ish/eth-timelock-vault) | Solidity | Lock ETH until a chosen timestamp, top up or extend the lock but never shorten it, withdraw when it expires |
+| [mini-block-explorer](https://github.com/kenny-ish/mini-block-explorer) | JavaScript | Small Ethereum block explorer page that only talks to a JSON-RPC node: recent blocks, block transactions and transaction details |
+| [sha256-rs](https://github.com/kenny-ish/sha256-rs) | Rust | SHA-256 (FIPS 180-4) in safe Rust with a streaming API and a sha256sum-style CLI |
 | [commit-reveal-lottery](https://github.com/kenny-ish/commit-reveal-lottery) | Solidity | On-chain ETH lottery using commit-reveal randomness from all participants, with forfeits for non-revealers and full refunds if nobody reveals |
 | [wallet-health-check](https://github.com/kenny-ish/wallet-health-check) | Python | Check one address across Ethereum, Base, Arbitrum, OP, BNB Chain and Polygon: balances, stuck transactions and EIP-7702 delegations |
 | [abi-lite](https://github.com/kenny-ish/abi-lite) | TypeScript | Solidity ABI encoder/decoder for static types, strings and bytes, with bigint support |
