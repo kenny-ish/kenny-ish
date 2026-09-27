@@ -13,6 +13,8 @@ the chain over JSON-RPC: AMM and gas math, contract state, EVM internals.
 
 | Project | Language | Description |
 |---|---|---|
+| [blob-fee-monitor](https://github.com/kenny-ish/blob-fee-monitor) | Python | Watch EIP-4844 blob fees on Ethereum: blob base fee, blob space utilization and the cost of posting a blob, from eth_feeHistory |
+| [block-gas-usage](https://github.com/kenny-ish/block-gas-usage) | TypeScript | Chart gas usage versus the gas limit for the last N blocks of any EVM chain in the terminal |
 | [btc-fee-stats](https://github.com/kenny-ish/btc-fee-stats) | Python | Bitcoin fee dashboard in the terminal: recommended fees, mempool backlog and recent blocks from mempool.space |
 | [eth-timelock-vault](https://github.com/kenny-ish/eth-timelock-vault) | Solidity | Lock ETH until a chosen timestamp, top up or extend the lock but never shorten it, withdraw when it expires |
 | [mini-block-explorer](https://github.com/kenny-ish/mini-block-explorer) | JavaScript | Small Ethereum block explorer page that only talks to a JSON-RPC node: recent blocks, block transactions and transaction details |
