@@ -13,6 +13,8 @@ the chain over JSON-RPC: AMM and gas math, contract state, EVM internals.
 
 | Project | Language | Description |
 |---|---|---|
+| [basefee-predictor](https://github.com/kenny-ish/basefee-predictor) | Go | Project EIP-1559 base fees for the next blocks with full, target and empty blocks |
+| [eth-node-healthcheck](https://github.com/kenny-ish/eth-node-healthcheck) | Shell | Nagios-style health check for Ethereum execution clients: sync status, head block age and peer count via JSON-RPC |
 | [blob-fee-monitor](https://github.com/kenny-ish/blob-fee-monitor) | Python | Watch EIP-4844 blob fees on Ethereum: blob base fee, blob space utilization and the cost of posting a blob, from eth_feeHistory |
 | [block-gas-usage](https://github.com/kenny-ish/block-gas-usage) | TypeScript | Chart gas usage versus the gas limit for the last N blocks of any EVM chain in the terminal |
 | [btc-fee-stats](https://github.com/kenny-ish/btc-fee-stats) | Python | Bitcoin fee dashboard in the terminal: recommended fees, mempool backlog and recent blocks from mempool.space |
