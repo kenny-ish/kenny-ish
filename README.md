@@ -13,6 +13,10 @@ the chain over JSON-RPC: AMM and gas math, contract state, EVM internals.
 
 | Project | Language | Description |
 |---|---|---|
+| [name-registry](https://github.com/kenny-ish/name-registry) | Solidity | ENS-style name registry with yearly fees, expiry and grace period, renewals, transfers and address resolution |
+| [nonce-watch-go](https://github.com/kenny-ish/nonce-watch-go) | Go | Watch EVM addresses and report every new outgoing transaction by polling their account nonce |
+| [impermanent-loss](https://github.com/kenny-ish/impermanent-loss) | Python | Impermanent loss calculator for Uniswap v2 style pools and v3 concentrated ranges |
+| [multichain-block-monitor](https://github.com/kenny-ish/multichain-block-monitor) | TypeScript | Live table of block height, block time, gas usage and base fee across Ethereum, Base, Arbitrum, Optimism, Polygon and BSC |
 | [constant-product-pool](https://github.com/kenny-ish/constant-product-pool) | Solidity | Uniswap v2 style constant-product AMM pool for two ERC-20 tokens with LP shares, 0.3% fee, slippage limits and reentrancy guard |
 | [halving-countdown](https://github.com/kenny-ish/halving-countdown) | Python | Bitcoin halving countdown with block-time based ETA, current and next block subsidy |
 | [minimal-erc20](https://github.com/kenny-ish/minimal-erc20) | Solidity | Gas-conscious ERC-20 token with owner mint, burn, infinite-allowance shortcut and custom errors, tested with Foundry |
@@ -24,9 +28,5 @@ the chain over JSON-RPC: AMM and gas math, contract state, EVM internals.
 | [block-gas-usage](https://github.com/kenny-ish/block-gas-usage) | TypeScript | Chart gas usage versus the gas limit for the last N blocks of any EVM chain in the terminal |
 | [btc-fee-stats](https://github.com/kenny-ish/btc-fee-stats) | Python | Bitcoin fee dashboard in the terminal: recommended fees, mempool backlog and recent blocks from mempool.space |
 | [eth-timelock-vault](https://github.com/kenny-ish/eth-timelock-vault) | Solidity | Lock ETH until a chosen timestamp, top up or extend the lock but never shorten it, withdraw when it expires |
-| [mini-block-explorer](https://github.com/kenny-ish/mini-block-explorer) | JavaScript | Small Ethereum block explorer page that only talks to a JSON-RPC node: recent blocks, block transactions and transaction details |
-| [sha256-rs](https://github.com/kenny-ish/sha256-rs) | Rust | SHA-256 (FIPS 180-4) in safe Rust with a streaming API and a sha256sum-style CLI |
-| [commit-reveal-lottery](https://github.com/kenny-ish/commit-reveal-lottery) | Solidity | On-chain ETH lottery using commit-reveal randomness from all participants, with forfeits for non-revealers and full refunds if nobody reveals |
-| [wallet-health-check](https://github.com/kenny-ish/wallet-health-check) | Python | Check one address across Ethereum, Base, Arbitrum, OP, BNB Chain and Polygon: balances, stuck transactions and EIP-7702 delegations |
 
-...and 3 more in the [repositories tab](https://github.com/kenny-ish?tab=repositories).
+...and 7 more in the [repositories tab](https://github.com/kenny-ish?tab=repositories).
