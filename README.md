@@ -13,6 +13,9 @@ the chain over JSON-RPC: AMM and gas math, contract state, EVM internals.
 
 | Project | Language | Description |
 |---|---|---|
+| [utxo-coin-selection](https://github.com/kenny-ish/utxo-coin-selection) | Go | Bitcoin coin selection with Branch and Bound (changeless) and largest-first fallback, scored by the waste metric |
+| [sandwich-attack-sim](https://github.com/kenny-ish/sandwich-attack-sim) | Rust | Simulate MEV sandwich attacks on a constant-product pool to see how slippage tolerance determines what a searcher can extract |
+| [solana-epoch-progress](https://github.com/kenny-ish/solana-epoch-progress) | Python | Solana epoch progress and ETA from RPC slot data, using recent performance samples for real slot times |
 | [btc-block-intervals](https://github.com/kenny-ish/btc-block-intervals) | Go | Analyze recent Bitcoin block intervals from mempool.space and compare them with the exponential distribution of a Poisson process |
 | [crypto-address-classifier](https://github.com/kenny-ish/crypto-address-classifier) | Python | Identify which chain and address type a string belongs to (EVM, Bitcoin, Solana, Tron, Cosmos, Litecoin...) with checksum checks |
 | [calldata-decoder](https://github.com/kenny-ish/calldata-decoder) | TypeScript | Decode ERC-20/ERC-721/WETH transaction calldata by selector and flag risky patterns like unlimited approvals |
@@ -25,8 +28,5 @@ the chain over JSON-RPC: AMM and gas math, contract state, EVM internals.
 | [multichain-block-monitor](https://github.com/kenny-ish/multichain-block-monitor) | TypeScript | Live table of block height, block time, gas usage and base fee across Ethereum, Base, Arbitrum, Optimism, Polygon and BSC |
 | [constant-product-pool](https://github.com/kenny-ish/constant-product-pool) | Solidity | Uniswap v2 style constant-product AMM pool for two ERC-20 tokens with LP shares, 0.3% fee, slippage limits and reentrancy guard |
 | [halving-countdown](https://github.com/kenny-ish/halving-countdown) | Python | Bitcoin halving countdown with block-time based ETA, current and next block subsidy |
-| [minimal-erc20](https://github.com/kenny-ish/minimal-erc20) | Solidity | Gas-conscious ERC-20 token with owner mint, burn, infinite-allowance shortcut and custom errors, tested with Foundry |
-| [evm-chain-directory](https://github.com/kenny-ish/evm-chain-directory) | TypeScript | Offline directory of EVM chains (chain id, currency, explorer, public RPC) with search and live RPC chain-id verification |
-| [btc-difficulty-rs](https://github.com/kenny-ish/btc-difficulty-rs) | Rust | Bitcoin compact-bits, target, difficulty and network hashrate conversions, plus solo-mining odds for a given hashrate |
 
-...and 13 more in the [repositories tab](https://github.com/kenny-ish?tab=repositories).
+...and 16 more in the [repositories tab](https://github.com/kenny-ish?tab=repositories).
