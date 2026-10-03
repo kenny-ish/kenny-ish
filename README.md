@@ -13,6 +13,9 @@ the chain over JSON-RPC: AMM and gas math, contract state, EVM internals.
 
 | Project | Language | Description |
 |---|---|---|
+| [block-builder-share](https://github.com/kenny-ish/block-builder-share) | Python | Measure Ethereum block builder market share over recent blocks from on-chain extraData and fee recipients |
+| [l2-fee-compare](https://github.com/kenny-ish/l2-fee-compare) | TypeScript | Compare the current cost of a transfer and a swap across Ethereum, L2s and sidechains using live gas prices and token prices |
+| [vanity-difficulty](https://github.com/kenny-ish/vanity-difficulty) | Python | Estimate how long a vanity address search takes for EVM, Solana and Bitcoin prefixes at a given key rate |
 | [utxo-coin-selection](https://github.com/kenny-ish/utxo-coin-selection) | Go | Bitcoin coin selection with Branch and Bound (changeless) and largest-first fallback, scored by the waste metric |
 | [sandwich-attack-sim](https://github.com/kenny-ish/sandwich-attack-sim) | Rust | Simulate MEV sandwich attacks on a constant-product pool to see how slippage tolerance determines what a searcher can extract |
 | [solana-epoch-progress](https://github.com/kenny-ish/solana-epoch-progress) | Python | Solana epoch progress and ETA from RPC slot data, using recent performance samples for real slot times |
@@ -25,8 +28,5 @@ the chain over JSON-RPC: AMM and gas math, contract state, EVM internals.
 | [name-registry](https://github.com/kenny-ish/name-registry) | Solidity | ENS-style name registry with yearly fees, expiry and grace period, renewals, transfers and address resolution |
 | [nonce-watch-go](https://github.com/kenny-ish/nonce-watch-go) | Go | Watch EVM addresses and report every new outgoing transaction by polling their account nonce |
 | [impermanent-loss](https://github.com/kenny-ish/impermanent-loss) | Python | Impermanent loss calculator for Uniswap v2 style pools and v3 concentrated ranges |
-| [multichain-block-monitor](https://github.com/kenny-ish/multichain-block-monitor) | TypeScript | Live table of block height, block time, gas usage and base fee across Ethereum, Base, Arbitrum, Optimism, Polygon and BSC |
-| [constant-product-pool](https://github.com/kenny-ish/constant-product-pool) | Solidity | Uniswap v2 style constant-product AMM pool for two ERC-20 tokens with LP shares, 0.3% fee, slippage limits and reentrancy guard |
-| [halving-countdown](https://github.com/kenny-ish/halving-countdown) | Python | Bitcoin halving countdown with block-time based ETA, current and next block subsidy |
 
-...and 16 more in the [repositories tab](https://github.com/kenny-ish?tab=repositories).
+...and 19 more in the [repositories tab](https://github.com/kenny-ish?tab=repositories).
