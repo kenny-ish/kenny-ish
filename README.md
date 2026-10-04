@@ -13,6 +13,9 @@ the chain over JSON-RPC: AMM and gas math, contract state, EVM internals.
 
 | Project | Language | Description |
 |---|---|---|
+| [code-hash-compare](https://github.com/kenny-ish/code-hash-compare) | Go | Check whether the same address holds identical bytecode on several EVM chains by hashing eth_getCode results |
+| [eth-burn-tracker](https://github.com/kenny-ish/eth-burn-tracker) | Python | Measure ETH burned by EIP-1559 base fees and EIP-4844 blob fees over recent blocks, from block headers and fee history |
+| [wallet-connect-demo](https://github.com/kenny-ish/wallet-connect-demo) | JavaScript | Plain-JS wallet connection demo with EIP-6963 multi-wallet discovery, chain switching, balance lookup and message signing |
 | [block-builder-share](https://github.com/kenny-ish/block-builder-share) | Python | Measure Ethereum block builder market share over recent blocks from on-chain extraData and fee recipients |
 | [l2-fee-compare](https://github.com/kenny-ish/l2-fee-compare) | TypeScript | Compare the current cost of a transfer and a swap across Ethereum, L2s and sidechains using live gas prices and token prices |
 | [vanity-difficulty](https://github.com/kenny-ish/vanity-difficulty) | Python | Estimate how long a vanity address search takes for EVM, Solana and Bitcoin prefixes at a given key rate |
@@ -25,8 +28,5 @@ the chain over JSON-RPC: AMM and gas math, contract state, EVM internals.
 | [rpc-timing-sh](https://github.com/kenny-ish/rpc-timing-sh) | Shell | Break down JSON-RPC latency into DNS, TCP, TLS and server time with curl timing variables, to see where the milliseconds go |
 | [gas-oracle-server](https://github.com/kenny-ish/gas-oracle-server) | Go | HTTP gas oracle serving EIP-1559 fee suggestions from eth_feeHistory percentiles, refreshed in the background |
 | [rpc-list-audit](https://github.com/kenny-ish/rpc-list-audit) | Python | Find dead endpoints in the chainlist and ethereum-lists RPC lists, reporting only failures that look the same from anywhere: NXDOMAIN, HTTP 410, revoked API keys, wrong chain id |
-| [name-registry](https://github.com/kenny-ish/name-registry) | Solidity | ENS-style name registry with yearly fees, expiry and grace period, renewals, transfers and address resolution |
-| [nonce-watch-go](https://github.com/kenny-ish/nonce-watch-go) | Go | Watch EVM addresses and report every new outgoing transaction by polling their account nonce |
-| [impermanent-loss](https://github.com/kenny-ish/impermanent-loss) | Python | Impermanent loss calculator for Uniswap v2 style pools and v3 concentrated ranges |
 
-...and 19 more in the [repositories tab](https://github.com/kenny-ish?tab=repositories).
+...and 22 more in the [repositories tab](https://github.com/kenny-ish?tab=repositories).
