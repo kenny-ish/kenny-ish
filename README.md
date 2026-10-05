@@ -13,6 +13,11 @@ the chain over JSON-RPC: AMM and gas math, contract state, EVM internals.
 
 | Project | Language | Description |
 |---|---|---|
+| [eip1559-sim-rs](https://github.com/kenny-ish/eip1559-sim-rs) | Rust | Simulate EIP-1559 base fee dynamics in Rust under demand shocks and see how quickly the fee converges back to the target |
+| [block-at-timestamp](https://github.com/kenny-ish/block-at-timestamp) | TypeScript | Find the Ethereum block for any date with an interpolation-guided binary search over JSON-RPC, counting every RPC call |
+| [erc4337-userop-stats](https://github.com/kenny-ish/erc4337-userop-stats) | Python | Account abstraction activity from EntryPoint logs: UserOperation counts, success rate, paymaster share and gas costs over recent blocks |
+| [rpc-failover-proxy](https://github.com/kenny-ish/rpc-failover-proxy) | Go | JSON-RPC reverse proxy with automatic failover across multiple upstreams, cooldowns, a method denylist and a health page |
+| [proxy-detector](https://github.com/kenny-ish/proxy-detector) | Python | Detect what's behind an EVM address: EOA, EIP-7702 delegated account, EIP-1167 clone, EIP-1967 transparent/UUPS/beacon proxy or plain contract |
 | [code-hash-compare](https://github.com/kenny-ish/code-hash-compare) | Go | Check whether the same address holds identical bytecode on several EVM chains by hashing eth_getCode results |
 | [eth-burn-tracker](https://github.com/kenny-ish/eth-burn-tracker) | Python | Measure ETH burned by EIP-1559 base fees and EIP-4844 blob fees over recent blocks, from block headers and fee history |
 | [wallet-connect-demo](https://github.com/kenny-ish/wallet-connect-demo) | JavaScript | Plain-JS wallet connection demo with EIP-6963 multi-wallet discovery, chain switching, balance lookup and message signing |
@@ -23,10 +28,5 @@ the chain over JSON-RPC: AMM and gas math, contract state, EVM internals.
 | [sandwich-attack-sim](https://github.com/kenny-ish/sandwich-attack-sim) | Rust | Simulate MEV sandwich attacks on a constant-product pool to see how slippage tolerance determines what a searcher can extract |
 | [solana-epoch-progress](https://github.com/kenny-ish/solana-epoch-progress) | Python | Solana epoch progress and ETA from RPC slot data, using recent performance samples for real slot times |
 | [btc-block-intervals](https://github.com/kenny-ish/btc-block-intervals) | Go | Analyze recent Bitcoin block intervals from mempool.space and compare them with the exponential distribution of a Poisson process |
-| [crypto-address-classifier](https://github.com/kenny-ish/crypto-address-classifier) | Python | Identify which chain and address type a string belongs to (EVM, Bitcoin, Solana, Tron, Cosmos, Litecoin...) with checksum checks |
-| [calldata-decoder](https://github.com/kenny-ish/calldata-decoder) | TypeScript | Decode ERC-20/ERC-721/WETH transaction calldata by selector and flag risky patterns like unlimited approvals |
-| [rpc-timing-sh](https://github.com/kenny-ish/rpc-timing-sh) | Shell | Break down JSON-RPC latency into DNS, TCP, TLS and server time with curl timing variables, to see where the milliseconds go |
-| [gas-oracle-server](https://github.com/kenny-ish/gas-oracle-server) | Go | HTTP gas oracle serving EIP-1559 fee suggestions from eth_feeHistory percentiles, refreshed in the background |
-| [rpc-list-audit](https://github.com/kenny-ish/rpc-list-audit) | Python | Find dead endpoints in the chainlist and ethereum-lists RPC lists, reporting only failures that look the same from anywhere: NXDOMAIN, HTTP 410, revoked API keys, wrong chain id |
 
-...and 22 more in the [repositories tab](https://github.com/kenny-ish?tab=repositories).
+...and 27 more in the [repositories tab](https://github.com/kenny-ish?tab=repositories).
