@@ -13,6 +13,11 @@ the chain over JSON-RPC: AMM and gas math, contract state, EVM internals.
 
 | Project | Language | Description |
 |---|---|---|
+| [keystore-backup](https://github.com/kenny-ish/keystore-backup) | Shell | Encrypted, rotated backups of wallet keystores or validator keys with gpg AES-256, checksums and restore verification |
+| [keystore-inspector](https://github.com/kenny-ish/keystore-inspector) | Go | Inspect Ethereum keystore V3 JSON files without the password: KDF strength, cipher, MAC and address, with weak-parameter warnings |
+| [solana-token-holders](https://github.com/kenny-ish/solana-token-holders) | Python | Show supply and the largest holders of any Solana SPL token from RPC alone, resolving token accounts to their owner wallets |
+| [blob-basefee-rs](https://github.com/kenny-ish/blob-basefee-rs) | Rust | EIP-4844 blob base fee calculator in Rust using the spec's fake_exponential, with Cancun and Prague update fractions |
+| [univ3-twap-oracle](https://github.com/kenny-ish/univ3-twap-oracle) | Python | Compute a manipulation-resistant TWAP from any Uniswap v3 pool's built-in oracle via observe(), and compare it with the spot price |
 | [eip1559-sim-rs](https://github.com/kenny-ish/eip1559-sim-rs) | Rust | Simulate EIP-1559 base fee dynamics in Rust under demand shocks and see how quickly the fee converges back to the target |
 | [block-at-timestamp](https://github.com/kenny-ish/block-at-timestamp) | TypeScript | Find the Ethereum block for any date with an interpolation-guided binary search over JSON-RPC, counting every RPC call |
 | [erc4337-userop-stats](https://github.com/kenny-ish/erc4337-userop-stats) | Python | Account abstraction activity from EntryPoint logs: UserOperation counts, success rate, paymaster share and gas costs over recent blocks |
@@ -23,10 +28,5 @@ the chain over JSON-RPC: AMM and gas math, contract state, EVM internals.
 | [wallet-connect-demo](https://github.com/kenny-ish/wallet-connect-demo) | JavaScript | Plain-JS wallet connection demo with EIP-6963 multi-wallet discovery, chain switching, balance lookup and message signing |
 | [block-builder-share](https://github.com/kenny-ish/block-builder-share) | Python | Measure Ethereum block builder market share over recent blocks from on-chain extraData and fee recipients |
 | [l2-fee-compare](https://github.com/kenny-ish/l2-fee-compare) | TypeScript | Compare the current cost of a transfer and a swap across Ethereum, L2s and sidechains using live gas prices and token prices |
-| [vanity-difficulty](https://github.com/kenny-ish/vanity-difficulty) | Python | Estimate how long a vanity address search takes for EVM, Solana and Bitcoin prefixes at a given key rate |
-| [utxo-coin-selection](https://github.com/kenny-ish/utxo-coin-selection) | Go | Bitcoin coin selection with Branch and Bound (changeless) and largest-first fallback, scored by the waste metric |
-| [sandwich-attack-sim](https://github.com/kenny-ish/sandwich-attack-sim) | Rust | Simulate MEV sandwich attacks on a constant-product pool to see how slippage tolerance determines what a searcher can extract |
-| [solana-epoch-progress](https://github.com/kenny-ish/solana-epoch-progress) | Python | Solana epoch progress and ETA from RPC slot data, using recent performance samples for real slot times |
-| [btc-block-intervals](https://github.com/kenny-ish/btc-block-intervals) | Go | Analyze recent Bitcoin block intervals from mempool.space and compare them with the exponential distribution of a Poisson process |
 
-...and 27 more in the [repositories tab](https://github.com/kenny-ish?tab=repositories).
+...and 32 more in the [repositories tab](https://github.com/kenny-ish?tab=repositories).
