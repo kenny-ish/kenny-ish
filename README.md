@@ -13,6 +13,7 @@ the chain over JSON-RPC: AMM and gas math, contract state, EVM internals.
 
 | Project | Language | Description |
 |---|---|---|
+| [nonce-gap-checker](https://github.com/kenny-ish/nonce-gap-checker) | TypeScript | Detect stuck transactions by comparing an address's latest and pending nonce on several EVM chains |
 | [keystore-backup](https://github.com/kenny-ish/keystore-backup) | Shell | Encrypted, rotated backups of wallet keystores or validator keys with gpg AES-256, checksums and restore verification |
 | [keystore-inspector](https://github.com/kenny-ish/keystore-inspector) | Go | Inspect Ethereum keystore V3 JSON files without the password: KDF strength, cipher, MAC and address, with weak-parameter warnings |
 | [solana-token-holders](https://github.com/kenny-ish/solana-token-holders) | Python | Show supply and the largest holders of any Solana SPL token from RPC alone, resolving token accounts to their owner wallets |
@@ -27,6 +28,5 @@ the chain over JSON-RPC: AMM and gas math, contract state, EVM internals.
 | [eth-burn-tracker](https://github.com/kenny-ish/eth-burn-tracker) | Python | Measure ETH burned by EIP-1559 base fees and EIP-4844 blob fees over recent blocks, from block headers and fee history |
 | [wallet-connect-demo](https://github.com/kenny-ish/wallet-connect-demo) | JavaScript | Plain-JS wallet connection demo with EIP-6963 multi-wallet discovery, chain switching, balance lookup and message signing |
 | [block-builder-share](https://github.com/kenny-ish/block-builder-share) | Python | Measure Ethereum block builder market share over recent blocks from on-chain extraData and fee recipients |
-| [l2-fee-compare](https://github.com/kenny-ish/l2-fee-compare) | TypeScript | Compare the current cost of a transfer and a swap across Ethereum, L2s and sidechains using live gas prices and token prices |
 
-...and 32 more in the [repositories tab](https://github.com/kenny-ish?tab=repositories).
+...and 33 more in the [repositories tab](https://github.com/kenny-ish?tab=repositories).
