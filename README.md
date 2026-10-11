@@ -13,6 +13,7 @@ the chain over JSON-RPC: AMM and gas math, contract state, EVM internals.
 
 | Project | Language | Description |
 |---|---|---|
+| [erc20-allowance-checker](https://github.com/kenny-ish/erc20-allowance-checker) | Python | Check an address's ERC-20 and Permit2 allowances against common DeFi spenders with eth_call |
 | [stale-pyc](https://github.com/kenny-ish/stale-pyc) | Python | Find .pyc files Python would still load after the source changed: same-size edits within the same second, mtime-preserving copies, unchecked-hash caches |
 | [node-disk-alert](https://github.com/kenny-ish/node-disk-alert) | Shell | Disk usage and growth-rate alerts for blockchain nodes, predicting days until full and notifying via Telegram |
 | [univ3-position-reader](https://github.com/kenny-ish/univ3-position-reader) | Python | Read a Uniswap v3 LP position NFT on-chain: pool, range, in-range status, current token amounts and uncollected owed tokens |
@@ -27,6 +28,5 @@ the chain over JSON-RPC: AMM and gas math, contract state, EVM internals.
 | [eip1559-sim-rs](https://github.com/kenny-ish/eip1559-sim-rs) | Rust | Simulate EIP-1559 base fee dynamics in Rust under demand shocks and see how quickly the fee converges back to the target |
 | [block-at-timestamp](https://github.com/kenny-ish/block-at-timestamp) | TypeScript | Find the Ethereum block for any date with an interpolation-guided binary search over JSON-RPC, counting every RPC call |
 | [erc4337-userop-stats](https://github.com/kenny-ish/erc4337-userop-stats) | Python | Account abstraction activity from EntryPoint logs: UserOperation counts, success rate, paymaster share and gas costs over recent blocks |
-| [rpc-failover-proxy](https://github.com/kenny-ish/rpc-failover-proxy) | Go | JSON-RPC reverse proxy with automatic failover across multiple upstreams, cooldowns, a method denylist and a health page |
 
-...and 38 more in the [repositories tab](https://github.com/kenny-ish?tab=repositories).
+...and 39 more in the [repositories tab](https://github.com/kenny-ish?tab=repositories).
