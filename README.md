@@ -13,6 +13,7 @@ the chain over JSON-RPC: AMM and gas math, contract state, EVM internals.
 
 | Project | Language | Description |
 |---|---|---|
+| [skipguard](https://github.com/kenny-ish/skipguard) | Python | Fail a CI step when the tests it reports as green did not actually run: required tests skipped, filters that matched nothing, suites that skipped themselves |
 | [token-gate-rehearsal](https://github.com/kenny-ish/token-gate-rehearsal) | Python | Simulate token-gated EVM calls with hypothetical native balances, ERC-20 balances and allowances using eth_call state overrides |
 | [governor-proposal-audit](https://github.com/kenny-ish/governor-proposal-audit) | Python | Inspect Governor proposal state and voting deadlines through direct contract calls. |
 | [erc20-allowance-checker](https://github.com/kenny-ish/erc20-allowance-checker) | Python | Check an address's ERC-20 and Permit2 allowances against common DeFi spenders with eth_call |
@@ -27,6 +28,5 @@ the chain over JSON-RPC: AMM and gas math, contract state, EVM internals.
 | [solana-token-holders](https://github.com/kenny-ish/solana-token-holders) | Python | Show supply and the largest holders of any Solana SPL token from RPC alone, resolving token accounts to their owner wallets |
 | [blob-basefee-rs](https://github.com/kenny-ish/blob-basefee-rs) | Rust | EIP-4844 blob base fee calculator in Rust using the spec's fake_exponential, with Cancun and Prague update fractions |
 | [univ3-twap-oracle](https://github.com/kenny-ish/univ3-twap-oracle) | Python | Compute a manipulation-resistant TWAP from any Uniswap v3 pool's built-in oracle via observe(), and compare it with the spot price |
-| [eip1559-sim-rs](https://github.com/kenny-ish/eip1559-sim-rs) | Rust | Simulate EIP-1559 base fee dynamics in Rust under demand shocks and see how quickly the fee converges back to the target |
 
-...and 41 more in the [repositories tab](https://github.com/kenny-ish?tab=repositories).
+...and 42 more in the [repositories tab](https://github.com/kenny-ish?tab=repositories).
