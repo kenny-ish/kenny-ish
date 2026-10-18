@@ -13,6 +13,8 @@ the chain over JSON-RPC: AMM and gas math, contract state, EVM internals.
 
 | Project | Language | Description |
 |---|---|---|
+| [create2-deploy-rehearsal](https://github.com/kenny-ish/create2-deploy-rehearsal) | Python | Rehearse CREATE2 deployments through the deterministic deployment proxy without sending a transaction. |
+| [userop-hash-recheck](https://github.com/kenny-ish/userop-hash-recheck) | Python | Recompute ERC-4337 userOpHash values from a handleOps transaction's calldata and verify them against the EntryPoint's UserOperationEvent logs (v0.6 to v0.8) using only JSON-RPC. |
 | [evm-log-range-probe](https://github.com/kenny-ish/evm-log-range-probe) | Python | Measure filter-specific eth_getLogs range limits across multiple EVM JSON-RPC providers. |
 | [timelock-queue-audit](https://github.com/kenny-ish/timelock-queue-audit) | Python | Audit Compound Timelock queue entries from RPC logs and on-chain state. |
 | [op-output-root-check](https://github.com/kenny-ish/op-output-root-check) | Python | Recompute an OP Stack output root from an L2 node (eth_getProof + block header) and check it against the root claim of a dispute game on L1, including super root games |
@@ -26,7 +28,5 @@ the chain over JSON-RPC: AMM and gas math, contract state, EVM internals.
 | [amm-lp-simulator](https://github.com/kenny-ish/amm-lp-simulator) | Rust | Monte Carlo simulator of a constant-product AMM LP position vs holding, with arbitrageurs, fees and GBM price paths |
 | [mutant-check](https://github.com/kenny-ish/mutant-check) | Python | Check that a test really covers a guard: replace one spot in the code, rerun the tests, restore the file, and report killed or survived |
 | [nonce-gap-checker](https://github.com/kenny-ish/nonce-gap-checker) | TypeScript | Detect stuck transactions by comparing an address's latest and pending nonce on several EVM chains |
-| [keystore-backup](https://github.com/kenny-ish/keystore-backup) | Shell | Encrypted, rotated backups of wallet keystores or validator keys with gpg AES-256, checksums and restore verification |
-| [keystore-inspector](https://github.com/kenny-ish/keystore-inspector) | Go | Inspect Ethereum keystore V3 JSON files without the password: KDF strength, cipher, MAC and address, with weak-parameter warnings |
 
-...and 45 more in the [repositories tab](https://github.com/kenny-ish?tab=repositories).
+...and 47 more in the [repositories tab](https://github.com/kenny-ish?tab=repositories).
