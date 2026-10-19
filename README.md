@@ -13,6 +13,8 @@ the chain over JSON-RPC: AMM and gas math, contract state, EVM internals.
 
 | Project | Language | Description |
 |---|---|---|
+| [safe-multisig-inspector](https://github.com/kenny-ish/safe-multisig-inspector) | Python | Inspect a Safe multisig on-chain: version, owners and threshold, nonce, modules, guard and fallback handler |
+| [erc165-interface-auditor](https://github.com/kenny-ish/erc165-interface-auditor) | Python | Read-only ERC-165 matrix audit for NFT interface claims, control-ID behavior, empty returns, and custom interface IDs over JSON-RPC. |
 | [create2-deploy-rehearsal](https://github.com/kenny-ish/create2-deploy-rehearsal) | Python | Rehearse CREATE2 deployments through the deterministic deployment proxy without sending a transaction. |
 | [userop-hash-recheck](https://github.com/kenny-ish/userop-hash-recheck) | Python | Recompute ERC-4337 userOpHash values from a handleOps transaction's calldata and verify them against the EntryPoint's UserOperationEvent logs (v0.6 to v0.8) using only JSON-RPC. |
 | [evm-log-range-probe](https://github.com/kenny-ish/evm-log-range-probe) | Python | Measure filter-specific eth_getLogs range limits across multiple EVM JSON-RPC providers. |
@@ -26,7 +28,5 @@ the chain over JSON-RPC: AMM and gas math, contract state, EVM internals.
 | [node-disk-alert](https://github.com/kenny-ish/node-disk-alert) | Shell | Disk usage and growth-rate alerts for blockchain nodes, predicting days until full and notifying via Telegram |
 | [univ3-position-reader](https://github.com/kenny-ish/univ3-position-reader) | Python | Read a Uniswap v3 LP position NFT on-chain: pool, range, in-range status, current token amounts and uncollected owed tokens |
 | [amm-lp-simulator](https://github.com/kenny-ish/amm-lp-simulator) | Rust | Monte Carlo simulator of a constant-product AMM LP position vs holding, with arbitrageurs, fees and GBM price paths |
-| [mutant-check](https://github.com/kenny-ish/mutant-check) | Python | Check that a test really covers a guard: replace one spot in the code, rerun the tests, restore the file, and report killed or survived |
-| [nonce-gap-checker](https://github.com/kenny-ish/nonce-gap-checker) | TypeScript | Detect stuck transactions by comparing an address's latest and pending nonce on several EVM chains |
 
-...and 47 more in the [repositories tab](https://github.com/kenny-ish?tab=repositories).
+...and 49 more in the [repositories tab](https://github.com/kenny-ish?tab=repositories).
