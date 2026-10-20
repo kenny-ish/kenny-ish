@@ -13,6 +13,8 @@ the chain over JSON-RPC: AMM and gas math, contract state, EVM internals.
 
 | Project | Language | Description |
 |---|---|---|
+| [evm-commitment-auditor](https://github.com/kenny-ish/evm-commitment-auditor) | Python | Recompute EVM transaction, receipt, and log bloom commitments from JSON-RPC responses. |
+| [paymaster-runway-check](https://github.com/kenny-ish/paymaster-runway-check) | Python | Estimate how long each ERC-4337 paymaster can keep sponsoring UserOperations from its EntryPoint deposit, using UserOperationEvent logs and getDepositInfo over JSON-RPC. |
 | [safe-multisig-inspector](https://github.com/kenny-ish/safe-multisig-inspector) | Python | Inspect a Safe multisig on-chain: version, owners and threshold, nonce, modules, guard and fallback handler |
 | [erc165-interface-auditor](https://github.com/kenny-ish/erc165-interface-auditor) | Python | Read-only ERC-165 matrix audit for NFT interface claims, control-ID behavior, empty returns, and custom interface IDs over JSON-RPC. |
 | [create2-deploy-rehearsal](https://github.com/kenny-ish/create2-deploy-rehearsal) | Python | Rehearse CREATE2 deployments through the deterministic deployment proxy without sending a transaction. |
@@ -26,7 +28,5 @@ the chain over JSON-RPC: AMM and gas math, contract state, EVM internals.
 | [erc20-allowance-checker](https://github.com/kenny-ish/erc20-allowance-checker) | Python | Check an address's ERC-20 and Permit2 allowances against common DeFi spenders with eth_call |
 | [stale-pyc](https://github.com/kenny-ish/stale-pyc) | Python | Find .pyc files Python would still load after the source changed: same-size edits within the same second, mtime-preserving copies, unchecked-hash caches |
 | [node-disk-alert](https://github.com/kenny-ish/node-disk-alert) | Shell | Disk usage and growth-rate alerts for blockchain nodes, predicting days until full and notifying via Telegram |
-| [univ3-position-reader](https://github.com/kenny-ish/univ3-position-reader) | Python | Read a Uniswap v3 LP position NFT on-chain: pool, range, in-range status, current token amounts and uncollected owed tokens |
-| [amm-lp-simulator](https://github.com/kenny-ish/amm-lp-simulator) | Rust | Monte Carlo simulator of a constant-product AMM LP position vs holding, with arbitrageurs, fees and GBM price paths |
 
-...and 49 more in the [repositories tab](https://github.com/kenny-ish?tab=repositories).
+...and 51 more in the [repositories tab](https://github.com/kenny-ish?tab=repositories).
