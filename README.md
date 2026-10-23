@@ -13,6 +13,8 @@ the chain over JSON-RPC: AMM and gas math, contract state, EVM internals.
 
 | Project | Language | Description |
 |---|---|---|
+| [oracle-round-audit](https://github.com/kenny-ish/oracle-round-audit) | Python | Audit Chainlink AggregatorV3 proxy rounds for staleness, gaps, abnormal moves, and aggregator changes using only EVM JSON-RPC. |
+| [solana-alt-gate](https://github.com/kenny-ish/solana-alt-gate) | Python | Check whether a Solana address lookup table and requested indexes are usable in one RPC snapshot |
 | [arb-batch-status](https://github.com/kenny-ish/arb-batch-status) | Python | Show which sequencer batch holds an Arbitrum block or transaction, its L1 confirmations, and whether it is below the safe and finalized heads, using only JSON-RPC and NodeInterface |
 | [evm-cbor-audit](https://github.com/kenny-ish/evm-cbor-audit) | Python | Decode Solidity CBOR metadata trailers from deployed EVM bytecode using only JSON-RPC |
 | [evm-state-anchor-audit](https://github.com/kenny-ish/evm-state-anchor-audit) | Python | Compare EVM RPC providers using block hashes and EIP-1898 state reads to find lag, inconsistent data and unsupported historical queries |
@@ -26,7 +28,5 @@ the chain over JSON-RPC: AMM and gas math, contract state, EVM internals.
 | [timelock-queue-audit](https://github.com/kenny-ish/timelock-queue-audit) | Python | Audit Compound Timelock queue entries from RPC logs and on-chain state. |
 | [op-output-root-check](https://github.com/kenny-ish/op-output-root-check) | Python | Recompute an OP Stack output root from an L2 node (eth_getProof + block header) and check it against the root claim of a dispute game on L1, including super root games |
 | [skipguard](https://github.com/kenny-ish/skipguard) | Python | Fail a CI step when the tests it reports as green did not actually run: required tests skipped, filters that matched nothing, suites that skipped themselves |
-| [token-gate-rehearsal](https://github.com/kenny-ish/token-gate-rehearsal) | Python | Simulate token-gated EVM calls with hypothetical native balances, ERC-20 balances and allowances using eth_call state overrides |
-| [governor-proposal-audit](https://github.com/kenny-ish/governor-proposal-audit) | Python | Inspect Governor proposal state and voting deadlines through direct contract calls. |
 
-...and 54 more in the [repositories tab](https://github.com/kenny-ish?tab=repositories).
+...and 56 more in the [repositories tab](https://github.com/kenny-ish?tab=repositories).
