@@ -13,6 +13,7 @@ the chain over JSON-RPC: AMM and gas math, contract state, EVM internals.
 
 | Project | Language | Description |
 |---|---|---|
+| [solana-stake-lockup-gate](https://github.com/kenny-ish/solana-stake-lockup-gate) | Python | Check whether a Solana stake withdrawal signer passes authority and lockup gates using one RPC snapshot |
 | [selector-shadow-map](https://github.com/kenny-ish/selector-shadow-map) | Python | Find Solidity-style dispatcher selector collisions between two deployed EVM runtimes using JSON-RPC bytecode |
 | [role-ledger](https://github.com/kenny-ish/role-ledger) | Python | Rebuild OpenZeppelin AccessControl role holders from RoleGranted/RoleRevoked logs, verify them with hasRole and getRoleMember, and flag risky admin setups over plain JSON-RPC. |
 | [bip32-path-tool](https://github.com/kenny-ish/bip32-path-tool) | Python | Parse, validate and explain BIP32/BIP44 derivation paths, and generate address-index ranges |
@@ -27,6 +28,5 @@ the chain over JSON-RPC: AMM and gas math, contract state, EVM internals.
 | [paymaster-runway-check](https://github.com/kenny-ish/paymaster-runway-check) | Python | Estimate how long each ERC-4337 paymaster can keep sponsoring UserOperations from its EntryPoint deposit, using UserOperationEvent logs and getDepositInfo over JSON-RPC. |
 | [safe-multisig-inspector](https://github.com/kenny-ish/safe-multisig-inspector) | Python | Inspect a Safe multisig on-chain: version, owners and threshold, nonce, modules, guard and fallback handler |
 | [erc165-interface-auditor](https://github.com/kenny-ish/erc165-interface-auditor) | Python | Read-only ERC-165 matrix audit for NFT interface claims, control-ID behavior, empty returns, and custom interface IDs over JSON-RPC. |
-| [create2-deploy-rehearsal](https://github.com/kenny-ish/create2-deploy-rehearsal) | Python | Rehearse CREATE2 deployments through the deterministic deployment proxy without sending a transaction. |
 
-...and 61 more in the [repositories tab](https://github.com/kenny-ish?tab=repositories).
+...and 62 more in the [repositories tab](https://github.com/kenny-ish?tab=repositories).
