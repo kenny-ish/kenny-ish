@@ -13,6 +13,8 @@ the chain over JSON-RPC: AMM and gas math, contract state, EVM internals.
 
 | Project | Language | Description |
 |---|---|---|
+| [oracle-config-audit](https://github.com/kenny-ish/oracle-config-audit) | Python | Inspect the live OCR configuration behind a Chainlink AggregatorV3 proxy and verify config digests, transmission age, and transmitter set via JSON-RPC. |
+| [eth-tx-inspector](https://github.com/kenny-ish/eth-tx-inspector) | Python | Inspect any EVM transaction from its hash: type, status, gas and fee breakdown, blob and 7702 details, and decoded ERC-20 transfers |
 | [eip7702-auth-audit](https://github.com/kenny-ish/eip7702-auth-audit) | Python | Audit EIP-7702 type-4 transactions by decoding authorization tuples, recovering senders, and checking delegation state through JSON-RPC. |
 | [pr-inbox](https://github.com/kenny-ish/pr-inbox) | Python | See what people said on your pull requests to other projects since you last looked: new human reviews and comments, merges and closes, without bot noise |
 | [proxy-upgrade-ledger](https://github.com/kenny-ish/proxy-upgrade-ledger) | Python | Rebuild an upgradeable proxy's admin, implementation and beacon history from Upgraded/AdminChanged logs and check it against the live EIP-1967 slots over plain JSON-RPC. |
@@ -26,7 +28,5 @@ the chain over JSON-RPC: AMM and gas math, contract state, EVM internals.
 | [erc20-transfer-policy-probe](https://github.com/kenny-ish/erc20-transfer-policy-probe) | Python | Read-only ERC-20 transfer probes that classify accepted, false, and reverted calls across amounts with optional JSON-RPC state overrides. |
 | [oracle-round-audit](https://github.com/kenny-ish/oracle-round-audit) | Python | Audit Chainlink AggregatorV3 proxy rounds for staleness, gaps, abnormal moves, and aggregator changes using only EVM JSON-RPC. |
 | [solana-alt-gate](https://github.com/kenny-ish/solana-alt-gate) | Python | Check whether a Solana address lookup table and requested indexes are usable in one RPC snapshot |
-| [arb-batch-status](https://github.com/kenny-ish/arb-batch-status) | Python | Show which sequencer batch holds an Arbitrum block or transaction, its L1 confirmations, and whether it is below the safe and finalized heads, using only JSON-RPC and NodeInterface |
-| [evm-cbor-audit](https://github.com/kenny-ish/evm-cbor-audit) | Python | Decode Solidity CBOR metadata trailers from deployed EVM bytecode using only JSON-RPC |
 
-...and 67 more in the [repositories tab](https://github.com/kenny-ish?tab=repositories).
+...and 69 more in the [repositories tab](https://github.com/kenny-ish?tab=repositories).
