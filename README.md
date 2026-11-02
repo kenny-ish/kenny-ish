@@ -13,6 +13,7 @@ the chain over JSON-RPC: AMM and gas math, contract state, EVM internals.
 
 | Project | Language | Description |
 |---|---|---|
+| [eip712-domain-guard](https://github.com/kenny-ish/eip712-domain-guard) | Python | Verify EIP-712 typed-data hashes and recovered signers, with optional JSON-RPC checks for live domain separators and EIP-1271 contracts. |
 | [oracle-config-audit](https://github.com/kenny-ish/oracle-config-audit) | Python | Inspect the live OCR configuration behind a Chainlink AggregatorV3 proxy and verify config digests, transmission age, and transmitter set via JSON-RPC. |
 | [eth-tx-inspector](https://github.com/kenny-ish/eth-tx-inspector) | Python | Inspect any EVM transaction from its hash: type, status, gas and fee breakdown, blob and 7702 details, and decoded ERC-20 transfers |
 | [eip7702-auth-audit](https://github.com/kenny-ish/eip7702-auth-audit) | Python | Audit EIP-7702 type-4 transactions by decoding authorization tuples, recovering senders, and checking delegation state through JSON-RPC. |
@@ -27,6 +28,5 @@ the chain over JSON-RPC: AMM and gas math, contract state, EVM internals.
 | [erc1155-supply-audit](https://github.com/kenny-ish/erc1155-supply-audit) | Python | Reconcile ERC-1155 mint and burn logs with totalSupply for one token ID using only EVM JSON-RPC. |
 | [erc20-transfer-policy-probe](https://github.com/kenny-ish/erc20-transfer-policy-probe) | Python | Read-only ERC-20 transfer probes that classify accepted, false, and reverted calls across amounts with optional JSON-RPC state overrides. |
 | [oracle-round-audit](https://github.com/kenny-ish/oracle-round-audit) | Python | Audit Chainlink AggregatorV3 proxy rounds for staleness, gaps, abnormal moves, and aggregator changes using only EVM JSON-RPC. |
-| [solana-alt-gate](https://github.com/kenny-ish/solana-alt-gate) | Python | Check whether a Solana address lookup table and requested indexes are usable in one RPC snapshot |
 
-...and 69 more in the [repositories tab](https://github.com/kenny-ish?tab=repositories).
+...and 70 more in the [repositories tab](https://github.com/kenny-ish?tab=repositories).
